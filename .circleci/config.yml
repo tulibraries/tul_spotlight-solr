@@ -31,6 +31,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "7f:fd:83:f9:4f:b3:03:4c:b7:21:7f:1f:5b:5f:ec:a4"
+            - "ec:8d:3b:fe:b5:c6:62:e6:52:50:8e:3f:22:7b:84:b3"
       - run:
           name: Set up a local Solr with build's solr config.
           command: bash .circleci/setup_solr.sh
@@ -47,6 +48,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "7f:fd:83:f9:4f:b3:03:4c:b7:21:7f:1f:5b:5f:ec:a4"
+            - "ec:8d:3b:fe:b5:c6:62:e6:52:50:8e:3f:22:7b:84:b3"
       - run:
           name: Build configuration asset
           command: bash .circleci/build.sh
