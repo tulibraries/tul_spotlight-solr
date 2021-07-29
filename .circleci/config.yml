@@ -30,7 +30,6 @@ jobs:
       - setup_remote_docker
       - add_ssh_keys:
           fingerprints:
-            = "76:f6:f6:1c:ee:b1:b1:99:c0:33:04:03:5e:76:7a:1a"
             - "ec:8d:3b:fe:b5:c6:62:e6:52:50:8e:3f:22:7b:84:b3"
       - run:
           name: Set up a local Solr with build's solr config.
@@ -47,7 +46,6 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            = "76:f6:f6:1c:ee:b1:b1:99:c0:33:04:03:5e:76:7a:1a"
             - "ec:8d:3b:fe:b5:c6:62:e6:52:50:8e:3f:22:7b:84:b3"
       - run:
           name: Build configuration asset
