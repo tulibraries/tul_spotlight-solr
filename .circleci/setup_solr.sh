@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 cd ..
-git clone --single-branch --branch tul_spotlight git@github.com:tulibraries/ansible-playbook-solrcloud.git
+git clone --single-branch --branch main git@github.com:tulibraries/ansible-playbook-solrcloud.git
 mkdir -p ansible-playbook-solrcloud/data/tmp/collections
 cp -r ~/project ansible-playbook-solrcloud/data/tmp/collections/tul_spotlight-solr
 cd ansible-playbook-solrcloud
